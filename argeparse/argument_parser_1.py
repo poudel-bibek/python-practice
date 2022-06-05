@@ -1,5 +1,7 @@
 """
 Argument parser helps process command line arguments in Python
+
+usage: `python argument_parser_1.py -h` 
 """
 
 import argparse
@@ -26,5 +28,4 @@ def get_args():
 
 if __name__ == '__main__':
     get_args()
-
 
